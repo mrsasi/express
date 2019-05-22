@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-core-modules",
+  "version": "1.0.0",
+  "description": "simple express app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SasikumarC95/Nodejs-Core-Modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SasikumarC95/Nodejs-Core-Modules/issues"
+  },
+  "homepage": "https://github.com/SasikumarC95/Nodejs-Core-Modules#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}
