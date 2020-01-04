@@ -61,6 +61,6 @@ Reference:
  * [Flaviocopes-express](https://flaviocopes.com/express/)
       I am a big fan of Flaviocopes. They provide more useful Javascript resource and free books.
 
-learn More... [clike here](http://expressjs.com/)
+learn more... [clike here](http://expressjs.com/)
 
 
