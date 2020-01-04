@@ -6,13 +6,13 @@
  It's two way of install available.
  
 ### Current version based installation.
-  * Go to the [nodejs.org](https://nodejs.org/en/) and Install Current Version.
+  * Go to the [nodejs.org](https://nodejs.org/en/) and install current version.
   * Installation after check your node version available or not.
   * Open CMD and run below command
      ```
      node --version
      ```
-  * You got error message. that time Node not install your machine. so, fix the error and after run above command.
+  * You got error message. that time Node not installed your machine. So, fix the error and after run above command.
   * If you got current version of node in CMD. Your installation has been successful.
 
 ### NVM(Node Version Manager) Installation
@@ -23,13 +23,13 @@
 ## Express, a popular Node.js Framework
 ### Express Web Server
 1)Installation
-   * Create your project folder and that inside CMD(Command prompt) via run below command
+   * Create your applation folder and that inside CMD(Command prompt) via run below command
       ```
       npm init -y
       ```
      That time automatically generated package.json file, this file handle and control your NPM package.
    
-   * Next add your [Express NPM Package](https://www.npmjs.com/package/express), CMD via Applation folder below command.
+   * Next add your [Express NPM Package](https://www.npmjs.com/package/express), CMD via applation folder below command.
       ```
       npm install express
       ```
@@ -45,7 +45,7 @@
    app.listen(PORT, () => console.log('Server ready'))
    
    ```
-   * Save this to an index.js file in your project folder, add below command in package.json file inside.
+   * Save this to an index.js file in your applation folder, add below command in package.json file inside.
    ```
     "scripts": {
     "start": "node index.js",
@@ -57,4 +57,10 @@
    ```
    * You can open the browser to port 1234 on localhost and you should see the Hello World! message.
 
-  
+Reference:
+ * [Flaviocopes-express](https://flaviocopes.com/express/)
+      I am a big fan of Flaviocopes. They provide more useful Javascript resource and free books.
+
+learn More... [clike here](http://expressjs.com/)
+
+
