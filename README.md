@@ -8,11 +8,11 @@
 ### Current version based installation.
   * Go to the [nodejs.org](https://nodejs.org/en/) and Install Current Version.
   * Installation after check your node version available or not.
-  * Open CMD and run below cammand
+  * Open CMD and run below command
      ```
-     node --version or node -v
+     node --version
      ```
-  * You got error message. that time Node not install your machine. so, fix the error and after run above cammand.
+  * You got error message. that time Node not install your machine. so, fix the error and after run above command.
   * If you got current version of node in CMD. Your installation has been successful.
 
 ### NVM(Node Version Manager) Installation
@@ -21,14 +21,40 @@
   * Installation Document [github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
 
 ## Express, a popular Node.js Framework
-### Express App
+### Express Web Server
 1)Installation
-   * Create your project folder and that inside CMD(Cammand prompt) via run below cammand
+   * Create your project folder and that inside CMD(Command prompt) via run below command
       ```
       npm init -y
       ```
      That time automatically generated package.json file, this file handle and control your NPM package.
    
-   * Next add your [Express NPM Package](https://www.npmjs.com/package/express)
+   * Next add your [Express NPM Package](https://www.npmjs.com/package/express), CMD via Applation folder below command.
+      ```
+      npm install express
+      ```
+2)Source Code
+   * Now ready to create our first Express Web Server.
+   * Create index.js file. and after read and write below code.
+   ```
+   const express = require('express');
+   const app = express();
+   const PORT=1234;
+   
+   app.get('/', (req, res) => res.send('Hello World!'))
+   app.listen(PORT, () => console.log('Server ready'))
+   
+   ```
+   * Save this to an index.js file in your project folder, add below command in package.json file inside.
+   ```
+    "scripts": {
+    "start": "node index.js",
+    },
+   ```
+   * Start the server using
+   ```
+   npm start
+   ```
+   * You can open the browser to port 1234 on localhost and you should see the Hello World! message.
 
   
