@@ -16,6 +16,6 @@
   * If you got current version of node in CMD. Your installation has been successful.
 
 ### NVM(Node Version Manager) Installation
-  * It's very helpful for the project passed node version controllability.
-  * CMD via you can move any version.
+  * It's very helpful for the project bassed node version controllability.
+  * CMD via you can move one version to another.
   * Installation Document [github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
