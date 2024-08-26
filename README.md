@@ -20,7 +20,7 @@
 ### NVM(Node Version Manager) Installation
   * It's very helpful for managing the Node version in project-based controllability.
   * You can switch between versions using CMD.
-  * Installation Document [Install Nodejs (2024)](https://github.com/nvm-sh/nvm)
+  * Installation Document for [NVM](https://github.com/coreybutler/nvm-windows)
 
 ## Express, a popular Node.js Framework
 ### Express Web Server
